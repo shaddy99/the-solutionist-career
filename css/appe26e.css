@@ -9838,7 +9838,7 @@ main {
 .department-fst-sec .department-sec-bg .department-sec-inr-cont-new {
   display: inline-block;
   position: absolute;
-  color: #fff;
+  color: black;
 }
 .department-fst-sec .department-sec-bg .department-sec-inr-cont-new h1 {
   font-family: archiabold;
