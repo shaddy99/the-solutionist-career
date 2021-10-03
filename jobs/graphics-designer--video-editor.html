@@ -99,22 +99,22 @@
         </button>
         <div class="col justify-content-start nopadding" id="navbarSupportedContent">
             <ul class="nav justify-content-start">
-                <li class="nav-item active"><a href="../index.html">Jobs</a></li>
+                <li class="nav-item active"><a href="../index.html"></a></li>
             </ul>
         </div>
     </div>
 </nav>
 <div class="mobile-inner-nav d-md-none d-lg-none">
-    <div class="page-heading">Jobs</div>
+    <div class="page-heading">jobs</div>
     <span class="nav-arrow"></span>
     <ul class="nav navbar-nav">
-        <li><a href="../index.html">Jobs</a></li>
+        <li><a href="../index.html"></a></li>
     </ul>
 </div>
         <!--top banner section -->
         <section class="department-fst-sec">
             <div class="department-sec-bg">
-                <img src="../assets/images/department-bannerf9e3.jpg?v=1.1" alt="">
+                <img src="" alt="">
                 <div class="department-sec-inr-cont-new benefits-head">
                     <h1>Creative</h1>
                 </div>
@@ -278,14 +278,14 @@
             <label for="an-first_name">First Name</label>
             <input id="an-first_name" type="text" data-validation="alphanumeric|required|length" data-validation-allowing=" " data-validation-length="min3" placeholder="Enter your first name"
                    class="form-control"
-                   name="register_first_name" value="" data-validation-error-msg-alphanumeric="The input value can only contain alphanumeric characters and spaces" />
+                   name="register_first_name" value="" data-validation-error-msg-alphanumeric="The input value can only contain alphanumeric characters and spaces" required="required" />
                     </div>
 
         <div class="col-xs-12 col-md-6 col-lg-6 gl-form-box">
             <label for="an-last_name">Last Name</label>
             <input id="an-last_name" type="text" data-validation="alphanumeric|required|length" data-validation-allowing=" " placeholder="Enter your last name" data-validation-length="min3"
                    class="form-control"
-                   name="register_last_name" value="" data-validation-error-msg-alphanumeric="The input value can only contain alphanumeric characters and spaces" />
+                   name="register_last_name" value="" data-validation-error-msg-alphanumeric="The input value can only contain alphanumeric characters and spaces" required="required" />
                     </div>
     </div>
 
@@ -295,8 +295,8 @@
             <input id="an-register_email" type="email" data-validation="email"
                    placeholder="Enter your email"
                    class="form-control"
-                   name="register_email" value="">
-            <input type="hidden" name="should_apply" value="1">
+                   name="register_email" value=""required="required">
+            <input type="hidden" name="should_apply" value="1" required="required"/>
                     </div>
     </div>
 
@@ -310,7 +310,7 @@
                            data-validation="mime size required"
                            data-validation-allowing="msword, pdf, docx, doc"
                            data-validation-max-size="2M"
-                           data-validation-error-msg-extension="Wrong file format. Please upload doc, docx, or pdf. "
+                           data-validation-error-msg-extension="Wrong file format. Please upload doc, docx, or pdf. " required="required"
                     />
                     <label>Browse</label>
                 </span>
